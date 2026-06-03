@@ -1,0 +1,466 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: white;
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin-right: 30px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.navbar {
+    width: 100%;
+    min-height: 80px;
+    padding: 20px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.navLogo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    width: 26px;
+    height: 26px;
+}
+
+#medi {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.navLink {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+select {
+    border: none;
+    font-size: 16px;
+}
+
+.navButton {
+    display: flex;
+    gap: 10px;
+    font-size: 15px;
+}
+
+.logButton {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+#regButton {
+    background-color: #017D6E;
+    color: white;
+}
+
+.heroSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 5%;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.detailText,
+.image {
+    flex: 1;
+    min-width: 300px;
+}
+
+#textButton {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 20px;
+    background: #E6F2F1;
+    color: #017D6E;
+    margin-bottom: 15px;
+}
+
+#para1 {
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+
+#para2 {
+    font-size: 18px;
+    color: #5F6564;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.button1 {
+    padding: 15px 25px;
+    border: none;
+    border-radius: 6px;
+    margin-top: 40px;
+    font-size: 15px;
+}
+
+#start {
+    background: #017D6E;
+    color: white;
+    margin-right: 10px;
+}
+
+.trustedBy {
+    background: #f7f7f7;
+    padding: 40px 5% 60px;
+    text-align: center;
+}
+
+.trust {
+    color: #919595;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.logoIpsum {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+h1 {
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #5F6564;
+    line-height: 2.6;
+}
+
+.approach {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.healthCare {
+    padding: 100px 5%;
+}
+
+.care {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.box {
+    flex: 1 1 250px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    padding: 30px;
+    text-align: center;
+}
+
+.services {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 0 5% 100px;
+    flex-wrap: wrap;
+}
+
+.docImage,
+.offerings {
+    flex: 1;
+    min-width: 300px;
+}
+
+.offer {
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+.offerButton {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.grid {
+    padding: 18px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 16px;
+}
+
+.text {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.docProfile {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 0 5%;
+}
+
+.docDetail,
+.card {
+    flex: 1 1 300px;
+}
+
+.doc {
+    padding: 15px;
+}
+
+.border {
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.testimonial-text {
+    padding: 30px 32px 70px;
+    font-size: 20px;
+    line-height: 2;
+    text-align: left;
+}
+
+.margin {
+    margin-top: 30px;
+}
+
+.available {
+    margin: 15px;
+    padding: 5px 12px;
+    border: none;
+    border-radius: 20px;
+    background: #E6F2F1;
+    color: #017D6E;
+    display: block;
+}
+
+.docName {
+    margin-top: 20px;
+}
+
+.profile {
+    padding: 25px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.price {
+    color: #017D6E;
+}
+
+.gray {
+    color: #5F6564;
+}
+
+.speciality {
+    font-weight: 300;
+    font-size: 13px;
+    color: #5F6564;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.book {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 18px;
+    border-radius: 20px;
+    border: 1px solid #017D6E;
+    color: #017D6E;
+    background: transparent;
+    width: 150px;
+    gap: 10px;
+    font-size: 15px;
+}
+
+
+.btn {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.btn button {
+    padding: 15px 25px;
+    border: none;
+    border-radius: 6px;
+}
+
+.faq {
+    display: flex;
+    gap: 40px;
+    padding: 30px 5% 80px;
+    flex-wrap: wrap;
+}
+
+.faq1st,
+.faq2nd {
+    flex: 1;
+    min-width: 300px;
+}
+
+details {
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+summary {
+    padding: 20px;
+    font-weight: 550;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#schedule {
+    background-color: #017D6E;
+    color: #FFFFFF;
+}
+
+details p {
+    padding: 20px;
+    background: #f9f9f9;
+}
+
+.banner {
+    margin: 0 5% 80px;
+    background: #017D6E;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.banner p {
+    color: white;
+    margin: 20px 0 50px;
+}
+
+#appointment {
+    padding: 16px 28px;
+    border: none;
+    border-radius: 6px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 0 5% 40px;
+    flex-wrap: wrap;
+}
+
+.footerLogo {
+    flex: 1;
+    min-width: 250px;
+}
+
+.footerContent {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 18px;
+}
+
+ul a {
+    display: block;
+    margin-top: 15px;
+    color: #5F6564;
+}
+
+.footer2 {
+    padding: 20px 5% 60px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 17px;
+    color: #adb4b3;
+}
+
+.copyright {
+    margin-right: 550px;
+}
+
+.element {
+    color: #adb4b3;
+}
+
+@media (max-width: 576px) {
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navLink {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    #para1 {
+        font-size: 30px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .heroSection,
+    .services,
+    .faq {
+        padding: 40px 5%;
+    }
+
+    .footer2 {
+        flex-direction: column;
+        text-align: center;
+    }
+}
